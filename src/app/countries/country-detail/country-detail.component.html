@@ -1,0 +1,21 @@
+<div class="row" *ngIf="country">
+  <div class="col-xs-12">
+    <img
+      [src]="country.flags.png"
+      [alt]="country.name.official"
+      class="img-responsive"
+      style="max-height: 300px"
+    />
+  </div>
+</div>
+<div class="row" *ngIf="country">
+  <div class="col-xs-12">
+    <h1>{{ country.name.official }}</h1>
+  </div>
+</div>
+<div class="row" *ngIf="country">
+  <div class="col-xs-12"><b>Common name:</b> {{ country.name.common }}</div>
+  <div class="col-xs-12"><b>Capital:</b> {{ country.capital[0] }}</div>
+  <div class="col-xs-12"><b>Region:</b> {{ country.region }}</div>
+  <div class="col-xs-12"><b>Population:</b> {{ country.population }}</div>
+</div>
