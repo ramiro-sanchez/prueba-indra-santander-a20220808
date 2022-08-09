@@ -14,7 +14,7 @@ export class CountriesComponent implements OnInit {
   ngOnInit() {
     this.countriesApi.fetchCountries().subscribe(
       (response: any) => {
-        console.log(response);
+        // console.log(response);
         this.countries = response;
       },
       (error) => {

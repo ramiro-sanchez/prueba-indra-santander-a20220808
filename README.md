@@ -1,5 +1,7 @@
 # PruebaIndraSantanderA20220808
 
+Para hacer Login en la aplicación, sólo se valida que se ingrese un correo electrónico con el formato correcto y una contraseña de mínimo 6 caracteres.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
 
 ## Development server

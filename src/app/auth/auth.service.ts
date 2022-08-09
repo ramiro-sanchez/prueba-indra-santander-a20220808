@@ -14,8 +14,8 @@ export class AuthService {
   }
 
   public login(email: string, password: string) {
-    console.log(email);
-    console.log(password);
+    // console.log(email);
+    // console.log(password);
     this.isAuth = true;
     this.authenticatedChange.next(true);
   }

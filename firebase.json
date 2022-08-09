@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "dist/prueba-indra-santander-a20220808",
+    "site": "rsh-indra-santander",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
